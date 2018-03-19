@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IndexTankDotNet")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("IndexTank Client")]
+[assembly: AssemblyDescription("IndexTankDotNet package fixed to work with newer versions of RestSharp")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Lee Dumond")]
-[assembly: AssemblyProduct("IndexTankDotNet")]
-[assembly: AssemblyCopyright("Copyright © 2011 Lee Dumond")]
+[assembly: AssemblyCompany("Cheezburger")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: CLSCompliant(true)]
