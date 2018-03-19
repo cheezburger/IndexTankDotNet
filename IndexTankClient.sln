@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexTankDotNet.Tests", "IndexTankDotNet.Tests\IndexTankDotNet.Tests.csproj", "{A0E0A7A7-1325-404D-88F6-61679F499E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D250F96-1EAC-4B37-9F69-C654336F8E5D}"
+	ProjectSection(SolutionItems) = preProject
+		IndexTankClient.vsmdi = IndexTankClient.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexTankDotNet", "IndexTankDotNet\IndexTankDotNet.csproj", "{2DB979C7-8C6A-458D-838F-F2EEFC806D40}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = IndexTankClient.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A0E0A7A7-1325-404D-88F6-61679F499E25}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2DB979C7-8C6A-458D-838F-F2EEFC806D40}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
