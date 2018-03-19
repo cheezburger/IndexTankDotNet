@@ -38,7 +38,9 @@ namespace IndexTankDotNet
         {
             if (privateUri == null) throw new ArgumentNullException("privateUri", "The URI is null.");
 
-            restClient = new RestClient(privateUri.ToString());
+            var uriString = privateUri.GetComponents(UriComponents.HttpRequestUrl | UriComponents.Fragment, UriFormat.SafeUnescaped);
+
+            restClient = new RestClient(uriString);
             var userInfo = privateUri.UserInfo;
             var password = userInfo.Split(':')[1];
 
